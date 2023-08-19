@@ -1,1 +1,4 @@
 MY_ENV_VAR: 'YOUR_VALUE'
+
+python test_jobSearching.py
+python test_jobApplying.py
