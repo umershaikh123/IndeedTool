@@ -13,7 +13,7 @@ class JobSearchingTool(BaseTool):
     description: str = "Search for job listings using Indeed API"
 
     def _execute(self, keywords: str = None, location: str = None):
-        api_url = "https://api.indeed.com/ads/apisearch"
+        api_url = "https://api.indeed.com/ads/apisearch"         
         params = {
             "publisher": "YOUR_PUBLISHER_ID",
             "q": keywords,
